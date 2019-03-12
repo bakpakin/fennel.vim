@@ -222,7 +222,7 @@ syntax keyword LuaSpecialValue
 	\ utf8.codepoint
 	\ utf8.codes
 	\ utf8.len
-	\ utf8.offs
+	\ utf8.offset
 
 " Fennel Symbols
 let s:symcharnodig = '\!\$%\&\#\*\+\-./:<=>?A-Z^_a-z|\x80-\U10FFFF'
