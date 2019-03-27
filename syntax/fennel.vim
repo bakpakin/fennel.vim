@@ -60,6 +60,7 @@ syn keyword FennelSpecialForm let
 syn keyword FennelSpecialForm local
 syn keyword FennelSpecialForm lua
 syn keyword FennelSpecialForm match
+syn keyword FennelSpecialForm macros
 syn keyword FennelSpecialForm not=
 syn keyword FennelSpecialForm or
 syn keyword FennelSpecialForm partial
