@@ -30,7 +30,7 @@ if exists("*searchpairpos")
 	endif
 
 	if !exists('g:fennel_fuzzy_indent_patterns')
-		let g:fennel_fuzzy_indent_patterns = ['^def', '^let', '^while', '^if', '^fn$', '^var$', '^case$', '^for$', '^each$', '^local$', '^match$']
+		let g:fennel_fuzzy_indent_patterns = ['^def', '^let', '^while', '^if', '^fn$', '^var$', '^case$', '^for$', '^each$', '^local$', '^global$', '^match$', '^macro', '^lambda$']
 	endif
 
 	if !exists('g:fennel_fuzzy_indent_blacklist')
