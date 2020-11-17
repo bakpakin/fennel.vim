@@ -60,6 +60,7 @@ syn keyword FennelSpecialForm for
 syn keyword FennelSpecialForm global
 syn keyword FennelSpecialForm hashfn
 syn keyword FennelSpecialForm if
+syn keyword FennelSpecialForm import-macros
 syn keyword FennelSpecialForm include
 syn keyword FennelSpecialForm lambda
 syn keyword FennelSpecialForm length
@@ -67,12 +68,15 @@ syn keyword FennelSpecialForm let
 syn keyword FennelSpecialForm local
 syn keyword FennelSpecialForm lua
 syn keyword FennelSpecialForm macro
+syn keyword FennelSpecialForm macrodebug
 syn keyword FennelSpecialForm macros
 syn keyword FennelSpecialForm match
 syn keyword FennelSpecialForm not
 syn keyword FennelSpecialForm not=
 syn keyword FennelSpecialForm or
 syn keyword FennelSpecialForm partial
+syn keyword FennelSpecialForm pick-args
+syn keyword FennelSpecialForm pick-values
 syn keyword FennelSpecialForm quote
 syn keyword FennelSpecialForm require-macros
 syn keyword FennelSpecialForm set
@@ -83,6 +87,7 @@ syn keyword FennelSpecialForm var
 syn keyword FennelSpecialForm when
 syn keyword FennelSpecialForm while
 syn keyword FennelSpecialForm ~=
+syn keyword FennelSpecialForm with-open
 syn keyword FennelSpecialForm λ
 
 " Lua keywords
