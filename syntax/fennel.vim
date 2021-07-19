@@ -239,7 +239,7 @@ syntax keyword LuaSpecialValue
 let s:symcharnodig = '\!\$%\&\#\*\+\-./:<=>?A-Z^_a-z|\x80-\U10FFFF'
 let s:symchar = '0-9' . s:symcharnodig
 execute 'syn match FennelSymbol "\v<%([' . s:symcharnodig . '])%([' . s:symchar . '])*>"'
-execute 'syn match FennelKeyword "\v<:%([' . s:symchar . '])*>"'
+execute 'syn match FennelKeyword "\v:%([' . s:symchar . '])*>"'
 unlet! s:symchar s:symcharnodig
 
 syn match FennelQuote "`"
